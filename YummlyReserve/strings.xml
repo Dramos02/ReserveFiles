@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Yummly_2</string>
+    <string name="helpTitle">User Manual</string>
+    <string name="help1">Adding Your Recipe - A Quick Guide:</string>
+    <string name="help2">Adding Your Recipe - A Quick Guide:</string>
+    <string name="help3">Explore All Recipes:</string>
+    <string name="help4">Filter Recipes by Origin:</string>
+    <string name="help5">Find Your Own Creations - "My Recipe":</string>
+
+
+</resources>
