@@ -75,7 +75,7 @@
                             android:text="@string/editNameRecipe" />
 
                         <EditText
-                            android:id="@+id/editTextText"
+                            android:id="@+id/edit_name_recipe"
                             android:layout_width="match_parent"
                             android:layout_height="77dp"
                             android:ems="10"
@@ -123,7 +123,7 @@
                             android:text="@string/editIngredientsRecipe" />
 
                         <EditText
-                            android:id="@+id/editTextText2"
+                            android:id="@+id/edit_ingredients_recipe"
                             android:layout_width="match_parent"
                             android:layout_height="129dp"
                             android:ems="10"
@@ -172,7 +172,7 @@
                             android:text="@string/editInstructionsRecipe" />
 
                         <EditText
-                            android:id="@+id/editTextText3"
+                            android:id="@+id/edit_instructions_recipe"
                             android:layout_width="match_parent"
                             android:layout_height="126dp"
                             android:ems="10"
@@ -214,7 +214,6 @@
                         android:orientation="vertical">
 
                         <TextView
-                            android:id="@+id/imgEditTxt"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="center"
