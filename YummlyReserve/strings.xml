@@ -6,6 +6,33 @@
     <string name="help3">Explore All Recipes:</string>
     <string name="help4">Filter Recipes by Origin:</string>
     <string name="help5">Find Your Own Creations - "My Recipe":</string>
+    <string name="edit_deleteTitle">Edit/Delete your Recipe</string>
+
+    <string-array name="recipeOrigin">
+        <item>Italian</item>
+        <item>Chinese</item>
+        <item>Indian</item>
+        <item>Mexican</item>
+        <item>Japanese</item>
+        <item>Greek</item>
+        <item>Thai</item>
+        <item>Moroccan</item>
+        <item>Lebanese</item>
+        <item>American</item>
+        <item>Brazilian</item>
+        <item>Vietnamese</item>
+        <item>Turkish</item>
+        <item>Filipino</item>
+    </string-array>
+
+    <string name="editNameRecipe">Recipe Name: </string>
+    <string name="editIngredientsRecipe">Recipe Ingredients: </string>
+    <string name="editInstructionsRecipe">Recipe Instructions: </string>
+    <string name="editImageRecipe">Recipe Image Profile: </string>
+    <string name="editOriginRecipe">Recipe Origin: </string>
+    <string name="editBtn">Edit Recipe</string>
+    <string name="deleteBtn">Delete Recipe</string>
+
 
 
 </resources>
