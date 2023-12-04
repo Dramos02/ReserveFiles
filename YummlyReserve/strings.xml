@@ -33,6 +33,9 @@
     <string name="editBtn">Edit Recipe</string>
     <string name="deleteBtn">Delete Recipe</string>
 
+    <string name="tos">Terms of Service</string>
+    <string name="pripo">Privacy Policy</string>
+
 
 
 </resources>
