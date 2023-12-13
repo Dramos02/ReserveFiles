@@ -20,6 +20,7 @@ $db = new firebaseRDB($databaseURL);
         <td colspan="3">Sink</td>
         <td colspan="3">Microwave</td>
         <td colspan="3">Important Remarks</td>
+        <td colspan="4">Other Appliances<td>
     </tr>
     <tr>
         <td>Name:</td>
@@ -72,6 +73,11 @@ $db = new firebaseRDB($databaseURL);
         <td>Remarks</td>
         <td>Submitted by:</td>
         <td>Date:</td>
+
+        <td>Model/Brand Name:</td>
+        <td>WIDTH</td>
+        <td>DEPTH</td>
+        <td>HEIGHT</td>
 
     </tr>
     <?php
@@ -131,6 +137,11 @@ $db = new firebaseRDB($databaseURL);
                 <td>{$ravi['specifications']['remarks']}</td>
                 <td>{$ravi['specifications']['submittedby']}</td>
                 <td>{$ravi['specifications']['submission_date']}</td>
+
+                <td>{$ravi['specifications']['otherModel']}</td>
+                <td>{$ravi['specifications']['width_model_brand']}</td>
+                <td>{$ravi['specifications']['depth_model_brand']}</td>
+                <td>{$ravi['specifications']['height_model_brand']}</td>
                 
 
 

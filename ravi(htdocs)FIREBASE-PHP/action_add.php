@@ -53,7 +53,11 @@ $raviData = [
     "height_Microwave" => $_POST['height_Microwave'],
     "remarks" => $_POST['remarks'],
     "submittedby" => $_POST['submittedby'],
-    "submission_date" => $_POST['submission_date']
+    "submission_date" => $_POST['submission_date'],
+    "otherModel" => $_POST['otherModel'],
+    "width_model_brand" => $_POST['width_model_brand'],
+    "depth_model_brand" => $_POST['depth_model_brand'],
+    "height_model_brand" => $_POST['height_model_brand']
   ]
 ];
 

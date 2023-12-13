@@ -10,7 +10,7 @@ $data = json_decode ($retrieve, 1);
 
 <script src="./addPageComponents/addscript.js"></script>
 
-<form method="post" action="action_add.php">
+<form method="post" action="action_edit.php">
   <table>
 
     <!-- Initial Contact Inputs -->
@@ -361,3 +361,143 @@ $data = json_decode ($retrieve, 1);
   </tr>
 </form>
 </table>
+
+<style>
+  .othersField {
+    display: none;
+  }
+
+  #modelDimensions {
+    display: none;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
+
+  form {
+    --input-focus: #2d8cf0;
+    --font-color: #323232;
+    --font-color-sub: #131C31;
+    --bg-color: #fff;
+    --main-color: #323232;
+    padding: 20px;
+    background: lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 5px;
+    border: 2px solid var(--main-color);
+    box-shadow: 4px 4px var(--main-color);
+  }
+
+  th{
+    color: var(--font-color);
+    font-weight: 900;
+    font-size: 21px;
+    margin-bottom: 25px;
+  }
+
+  table {
+    width: auto;
+    border-collapse: collapse;
+  }
+
+  td {
+    padding: 5px;
+    color: var(--font-color-sub);
+    font-weight: 600;
+    font-size: 18px;
+  }
+
+  input[type="text"] {
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid var(--main-color);
+    background-color: var(--bg-color);
+    box-shadow: 4px 4px var(--main-color);
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--font-color);
+    padding: 5px 10px;
+    outline: none;
+}
+
+input[type="text"]:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out; 
+}
+
+.input::placeholder {
+  color: var(--font-color-sub);
+  opacity: 0.8;
+}
+
+
+  /*input {
+    width: auto;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid var(--main-color);
+    background-color: var(--bg-color);
+    box-shadow: 4px 4px var(--main-color);
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--font-color);
+    padding: 5px 10px;
+    outline: none;
+  }*/
+
+  button {
+    margin: 5px auto 0 auto;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid var(--main-color);
+    background-color: #93c47d;
+    box-shadow: 4px 4px var(--main-color);
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--font-color);
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
+
+  input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(2);
+  }
+
+  label {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  input[type="radio"]{
+    margin-right:  5px;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  input[type="radio"]:hover {
+  transform: scale(2); 
+}
+</style>

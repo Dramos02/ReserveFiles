@@ -314,7 +314,7 @@
       <table id="modelDimensions">
         <tr>
           <td>
-            <input type="text" name="model_brand" class="input" placeholder="ex. Diswasher/Anson">
+            <input type="text" name="model_brand" class="input" placeholder="ex. Dishwasher, Anson">
           </td>
           <td><input type="text" name="width_model_brand" class="input" placeholder="ex. XXmm (unit in MM)">
             <label class="checkbox-text">WIDTH</label>
