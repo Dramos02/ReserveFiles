@@ -163,10 +163,10 @@ document.addEventListener("DOMContentLoaded", function () {
             case 'r2':
               othersText.value = 'Filter Type';
               break;
-            case 'm1':
+            case 'r3':
               othersText.value = '900mm';
               break;
-            case 'm2':
+            case 'r4':
               othersText.value = '600mm';
               break;
           }
@@ -209,7 +209,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   typeRadioInput('range');
   rangeHoodType('rangeHoodType');
-  rangeHoodType('rangeHoodMeasure');
 
   otherModel();
 

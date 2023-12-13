@@ -250,24 +250,15 @@
             <label for="filter_type" class="checkbox-text">FILTER TYPE</label>
           </td>
           <td>
-            <input type="text" class="othersField" id="rangeHoodType_field" name="rangeHoodType_Field" required>
-          </td>
-        </tr>
-      </table>
-    </td>
-    <td>
-      <table>
-        <tr>
-          <td>
-            <input type="radio" id="nine_9m" name="rangeHoodMeasure" value="m1">
+            <input type="radio" id="nine_9m" name="rangeHoodType" value="r3">
             <label for="nine_9m" class="checkbox-text">900mm</label>
           </td>
           <td>
-            <input type="radio" id="six_6m" name="rangeHoodMeasure" value="m2">
+            <input type="radio" id="six_6m" name="rangeHoodType" value="r4">
             <label for="six_6m" class="checkbox-text">600mm</label>
           </td>
           <td>
-            <input type="text" class="othersField" id="rangeHoodMeasure_field" name="rangeHoodMeasure_Field" required>
+            <input type="text" class="othersField" id="rangeHoodType_field" name="rangeHoodType_Field" required>
           </td>
         </tr>
       </table>
@@ -354,7 +345,7 @@
     <td>Submitted by:</td>
     <td><input type="text" name="submittedby" class="input" placeholder="" required></td>
     <td><label for="Date">Date:</label>
-      <input type="date" id="birthday" name="birthday">
+      <input type="date" id="submission_date" name="submission_date">
     </td>
   </tr>
   <tr>
@@ -436,7 +427,7 @@
 }
 
 input[type="text"]:hover {
-  transform: scale(1.2);
+  transform: scale(1.05);
   transition: transform 0.3s ease-in-out; 
 }
 
@@ -499,6 +490,6 @@ input[type="text"]:hover {
   }
 
   input[type="radio"]:hover {
-  transform: scale(1.5); 
+  transform: scale(2); 
 }
 </style>
