@@ -415,8 +415,7 @@
   }
 
   td {
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
+    padding: 5px;
     color: var(--font-color-sub);
     font-weight: 600;
     font-size: 18px;
@@ -434,6 +433,11 @@
     color: var(--font-color);
     padding: 5px 10px;
     outline: none;
+}
+
+input[type="text"]:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease-in-out; 
 }
 
 .input::placeholder {
@@ -480,11 +484,21 @@
 
   input[type="checkbox"] {
     margin-right: 10px;
-    transform: scale(1.5);
+    transform: scale(2);
   }
 
   label {
     font-size: 14px;
     font-weight: bold;
   }
+
+  input[type="radio"]{
+    margin-right:  5px;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  input[type="radio"]:hover {
+  transform: scale(1.5); 
+}
 </style>
